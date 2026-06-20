@@ -1,0 +1,119 @@
+/*Background*/
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width:100%;
+    height:100%;
+    background-color: rgb(220, 220, 220);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+/*Main box for login and registration*/
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    height:700px;
+    width:550px;
+    border-radius: 3%;
+}
+/*input fields*/
+.text-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height:50px;
+    width:400px;
+    padding: 0 15px;
+    border: 1px solid rgb(167, 14, 164);
+    margin-bottom:20px;
+    margin-top:25px;
+}
+
+.inner-input{
+    border:none;
+    outline:none;
+    width: 100%;
+    background:transparent;
+    font-size: 16px;
+
+}
+/*Buttons*/
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 14, 164);
+    border-radius: 5px;
+    height:50px;
+    width:400px;
+    padding: 0 15px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-bottom:15px;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+
+.login-button:hover {
+    background-color: rgb(130, 10, 128); /* A slightly darker purple */
+    transform: scale(1.02); /* Makes it pop out just a tiny bit */
+}
+.login-header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.login-header2{
+
+    text-align: center;
+    color: #666;             /* Lighter grey than the main header */
+    font-size: 16px;         /* Smaller size */
+    font-weight: 400;        /* Normal weight, not bold */
+    margin-bottom: 30px;     /* Extra space before the inputs start */
+    letter-spacing: 0.2px;
+    
+
+}
+/*signup/signin hyperlink*/
+.toggle-link{
+    color: rgb(167, 14, 164);
+    font-weight:600;
+    text-align: center;
+    font-size:14px;
+    cursor: pointer;
+}
+.switch-text{
+    margin-top:20px;
+    font-size:14px;
+    color:#666;
+    text-align: center;
+}
+
+.toggle-link:hover{
+    text-decoration: underline;
+    color: rgb(130, 10, 128);
+}
+/*error message*/
+.error-message {
+    color: #ff3333;          
+    background-color: #fff0f0; 
+    border: 1px solid #ffcccc; 
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 10px 0;          
+    text-align: center;
+    font-weight: 500;
+}
