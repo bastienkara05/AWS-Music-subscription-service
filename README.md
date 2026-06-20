@@ -1,3 +1,11 @@
+
+
+
+https://github.com/user-attachments/assets/fa0ca704-587e-496d-9681-52e4cf12e3d8
+
+
+
+
 # Music Subscription Service
 
 A full-stack cloud application that lets users register, search a music catalogue, and manage their own subscription list. Built on AWS with a React frontend, a Python API, and DynamoDB for storage. The backend is implemented to run in **three interchangeable deployment modes** — EC2, ECS Fargate (containerised), and AWS Lambda behind API Gateway — to demonstrate different cloud compute models.
